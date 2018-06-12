@@ -1,5 +1,9 @@
 # Distributed Crawler
 
+A distributed python crawler using Celery
+
+http://docs.celeryproject.org/en/latest/index.html
+
 ## Quick Start
 
 ```
