@@ -9,6 +9,8 @@ http://docs.celeryproject.org/en/latest/index.html
 ```
 git clone https://github.com/ianchen06/distributed_crawler
 
+docker run -it --rm --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
 pip install virtualenv
 virtualenv venv
 source venv/bin/activate
